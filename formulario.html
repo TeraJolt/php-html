@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Cadastro</title>
+</head>
+<body>
+    <header>
+        <h2>Cadastro de Clientes</h2>
+    </header>
+    <div>
+        <form action="">
+            <p>
+                Nome: <input type="text" size="100">
+            </p>
+            <p>
+                Endereço: <input type="text" size="71">
+                Número: <input type="text" size="10">
+            </p>
+            <p>
+                Bairro: <input type="text" size="40">
+                Cidade: <input type="text" size="45">
+            </p>
+            <p>
+                Estado: <select name="estado" id="uf">
+                    <option value="ES">ES</option>
+                    <option value="MG">MG</option>
+                    <option value="PR">PR</option>
+                    <option value="RJ">RJ</option>
+                    <option value="RS">RS</option>
+                    <option value="SC">SC</option>
+                    <option value="SP">SP</option>
+                </select>
+                Cep: <input type="text" placeholder="00000-000">
+            </p>
+            <p>
+                Telefone: <input type="tel" placeholder="(XX)XXXX-XXXX">
+                Celular: <input type="tel" placeholder="(XX)XXXXX-XXXX">
+            </p>
+            <p>
+                Email: <input type="email" name="email" size="50">
+            </p>
+            <p>
+                Data de Nascimento: <input type="date">
+            </p>
+            <p><fieldset>
+                <legend>Estado Civil:</legend>
+                <input type="radio" name="est_civ" value="solteiro">Solteiro
+                <input type="radio" name="est_civ" value="casado">Casado
+                <input type="radio" name="est_civ" value="divorciado">Divorciado
+                <input type="radio" name="est_civ" value="viuvo">Viúvo
+            </fieldset></p>
+            <p>
+                <input type="button" value="Limpar">
+                <input type="button" value="Enviar">
+            </p>
+        </form>
+    </div>
+</body>
+</html>
