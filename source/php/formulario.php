@@ -12,5 +12,5 @@
     $data_nasc=$_POST['data_nasc'];
     $est_civil=$_POST['est_civ'];
 
-    echo $nome.$endereco.$numero.$bairro.$cidade.$uf_estado.$cep.$telefone.$celular.$email.$data_nasc.$est_civil
+    echo "Nome: ".$nome."\nEndereço: ".$endereco."\nNúmero: ".$numero."\nBairro: ".$bairro."\nCidade: ".$cidade."\nEstado: ".$uf_estado."\nCEP: "$cep."Telefone: ".$telefone."Celular".$celular."Email".$email."Data Nasc".$data_nasc."Estado civil".$est_civil
 ?>
